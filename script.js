@@ -3,13 +3,15 @@
 //          randomly pick word for game
 //      scoreboard array
 //      remainingLetters array for word
-//      event watcher to take guess
+//      event listener to take guess
 //      evaluate guess
 //          correct >> if event.key === value in remaining letters array
+//              loop for duplicate letters
 //              update scoreboard array
 //              evaluate win
 //          incorrect >> if event key !=== value in remaining letters array
 //              reduce guesses remaining
+//              game over?
 //      evaluate win/loss
 //          win >> scoreboard array does not contain any underscores
 //              congratulations, play again?
