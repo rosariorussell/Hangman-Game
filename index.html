@@ -16,14 +16,15 @@
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
       <h1 class="display-3">Hangman</h1>
-      <p class="lead">Guess the word!</p>
+      <p class="lead">Guess the number!</p>
     </div>
     <div class="row">
       <div class="col-6 text-center">
-        <h2 id="guessed-letters">_ _ _ _ _ _ _</h2>
+        <aside id="incorrect-guesses"></aside>
+        <h2 id="correct-guesses">_ _ _ _ _ _ _</h2>
       </div>
       <div class="col-6">
-        <pre>
+        <pre id="hangman-art">
                 0000000000000
                 0           0
                 0           1
