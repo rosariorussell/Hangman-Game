@@ -1,0 +1,27 @@
+//  startgame
+//      array of words
+//          randomly pick word for game
+//      scoreboard array
+//      remainingLetters array for word
+//      event listener to take guess
+//      evaluate guess
+//          correct >> if event.key === value in remaining letters array
+//              loop for duplicate letters
+//              update scoreboard array
+//              evaluate win
+//          incorrect >> if event key !=== value in remaining letters array
+//              reduce guesses remaining
+//              game over?
+//      evaluate win/loss
+//          win >> scoreboard array does not contain any underscores
+//              congratulations, play again?
+//          loss >> 0 guesses remaining
+//              hangman game over
+
+
+
+// $(document).ready(function(){
+//     $(document).keyup(function(){
+//         console.log(event.key);
+//     });
+// });
